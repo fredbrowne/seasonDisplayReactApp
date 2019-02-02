@@ -15,7 +15,7 @@ and uses a second Component (spinner.js) to create a Loading screen while<br>
 the user waits and selects to share their location.<br>
 
 A third component, SeasonDisplay will handle the geolocation retrieved from<br>
-the user and provide the Display basedon on user's current season.
+the user and provide the Display based on user's current season.
 
 We also created a CSS file which was loaded in App.js for styling.
 ###########################################################################<br>
