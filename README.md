@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+###########################################################################<br>
+This is a study of React, the use of States and Life Cycle Events.<br>
+Application designed to learn about States and Class instead of Functions<br>
+for a Component. Website will use Geolocation to identify user position and
+process accordingly.<br>
+
+The app basically retrieves the user's geolocation and calculates with the<br>
+current month if the user is in winter or summer. If it's winter, shows <br>
+a message and layout based on Winter. Same goes for Summer.<br>
+
+A component APP was created to handle the initial input of geolocation,<br>
+and uses a second Component (spinner.js) to create a Loading screen while<br>
+the user waits and selects to share their location.<br>
+
+A third component, SeasonDisplay will handle the geolocation retrieved from<br>
+the user and provide the Display basedon on user's current season.
+
+We also created a CSS file which was loaded in App.js for styling.
+###########################################################################<br>
+
 ## Available Scripts
 
 In the project directory, you can run:
